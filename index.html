@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SketchPad</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>SketchPad</h1>
+    <div id="pad"></div>
+    <div id="inputs">
+      Number of Rows: <input id="size" type="number">
+      Color:
+      <select id="color">
+        <option>Black</option>
+        <option>Greyscale</option>
+        <option>Random</option>
+        <option>Color picker</option>
+        <option>Eraser</option>
+      </select>
+      <input id="picker" type="color" value="#ff0000"/>
+    </div>
+    <div id="buttons">
+      <button id="clear">Clear</button>
+      <button id="toggleGrid">Toggle Grid</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

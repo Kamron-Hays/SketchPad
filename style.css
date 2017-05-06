@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+}
+
+div {
+  padding: 5px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#pad {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+#inputs {
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#size {
+  width: 50px;
+  margin-right: 40px;
+}
+
+#picker {
+  visibility: hidden;
+  width: 25px;
+  height: 18px;
+}
+
+#clear, #toggleGrid {
+  width: 100px;
+  height: 30px;
+}
+
+#clear {
+  margin-right: 40px;
+}
+
+.cell {
+  float: left;
+  padding: 0;
+  box-sizing: border-box; /* border included in width and height */
+}
